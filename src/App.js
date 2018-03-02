@@ -40,13 +40,16 @@ const Settings = (props) => (
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/settings" component={Settings}/>
-        </div>
-      </BrowserRouter>
+      <div>
+        <div className="afterLoadTransition"/>
+        <BrowserRouter>
+          <div>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/settings" component={Settings}/>
+          </div>
+        </BrowserRouter>
+      </div>
     );
   }
 }
