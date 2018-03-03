@@ -1,0 +1,88 @@
+@import '../../main';
+
+.presentationCard {
+  @extend %responsiveContainer;
+  margin-top: -200px;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column-reverse;
+  .description {
+    background: $mainColor;
+    color: $white;
+    padding: 10px 20px;
+    h1, h3 {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+    }
+    img {
+      height: 50px;
+      vertical-align: middle;
+      margin-left: 20px;
+    }
+  }
+  .picture {
+    width: 70%;
+    text-align: right;
+    img {
+      height: 100%;
+      text-align: right;
+      margin-left: -50px;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .presentationCard {
+    text-align: center;
+    position: relative;
+    .description {
+      padding-top: 100px;
+      .list li {
+        justify-content: center;
+        width: 100%;
+      }
+    }
+    .picture {
+      position: absolute;
+      top: 0;
+      margin-top: -100px;
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+      img {
+        border-radius: 100%;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .presentationCard {
+    flex-direction: row;
+  }
+  .presentationCard .description {
+    -webkit-clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    padding: 20px 60px 20px 50px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .picture {
+    margin-left: -200px;
+  }
+}
+
+.list {
+  svg {
+    fill: $white;
+  }
+  h3 {
+    color: $white;
+  }
+}
+

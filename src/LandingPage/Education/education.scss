@@ -1,0 +1,26 @@
+@import "../../main";
+.cardTitle {
+  display: flex;
+  div:first-child {
+    width: 60px;
+    margin-right: 20px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    max-height: 50px;
+    height: auto;
+  }
+  h3 {
+    margin: 0;
+  }
+  h4 {
+    color: $grey;
+    margin: 0;
+  }
+}
+
+.container {
+  @extend %responsiveContainer;
+}

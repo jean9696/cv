@@ -1,0 +1,35 @@
+@import '../../main';
+
+.container {
+  @extend %responsiveContainer;
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.desc {
+  padding: 20px 30px;
+  text-align: center;
+  color: $grey;
+}
+
+.buttonContainer {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  .button {
+    margin: 0 10px;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .buttonContainer {
+    flex-direction: column;
+    .button {
+      margin: 10px 0;
+    }
+  }
+}

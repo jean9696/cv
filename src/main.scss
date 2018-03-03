@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+$mainColor: #0d47a1;
+$white: #fefefe;
+$grey: #757575;
+
+%responsiveContainer {
+  width: 100%;
+
+}
+
+@media only screen and (min-width: 800px) {
+  %responsiveContainer {
+    width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  %responsiveContainer {
+    width: 1000px;
+  }
+}

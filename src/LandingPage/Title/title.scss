@@ -1,0 +1,18 @@
+@import "../../main";
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  border-bottom: dashed 1px $grey;
+  h1 {
+      color: darken($grey, 20%);
+    }
+  svg {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    fill: $mainColor;
+    height: 45px;
+    width: 45px;
+  }
+}

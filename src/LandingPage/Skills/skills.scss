@@ -1,0 +1,64 @@
+@import '../../main';
+
+.container {
+  @extend %responsiveContainer;
+  .content {
+    background: $mainColor;
+    h3 {
+      color: $white;
+    }
+    > div {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+    margin-top: 20px;
+    padding: 20px 60px 40px;
+    .skill {
+      width: 100%;
+      margin: 0 10px;
+      color: $white;
+      p {
+        margin-bottom: 2px;
+      }
+    }
+  }
+  .softSkills {
+    @extend .content;
+    margin-top: 30px;
+    h3 {
+      color: #000;
+    }
+    background: $white;
+    .skill {
+      color: $grey;
+    }
+  }
+
+  .bestSkillsContainer {
+    margin-top: 40px;
+    padding: 10px 25px;
+    > div {
+      display: flex;
+      justify-content: center;
+      line-break: auto;
+      > div {
+        width: 150px;
+        padding: 10px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .content > div , .bestSkillsContainer > div {
+      flex-direction: column;
+      align-items: center;
+      > div {
+        width: 80%;
+      }
+    }
+  }
+}
+
