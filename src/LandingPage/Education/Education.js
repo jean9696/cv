@@ -15,7 +15,7 @@ import Title from '../Title/Title';
 
 const Education = ({ trad }) => (
   <div className={styles.container}>
-    <Title title="Education" icon={<EducationIcon />} />
+    <Title title="Formation" icon={<EducationIcon />} />
     <VerticalTimeline>
       <VerticalTimelineElement
         date="2017 - 2018"
