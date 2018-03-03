@@ -3,6 +3,7 @@ import { Route } from 'react-router';
 import { Link, BrowserRouter } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+import Layout from './Layout/Layout';
 
 const Page = ({ title }) => (
   <div className="App">
@@ -26,7 +27,7 @@ const Page = ({ title }) => (
 );
 
 const Home = (props) => (
-  <Page title="Home"/>
+  <Layout />
 );
 
 const About = (props) => (
@@ -40,16 +41,13 @@ const Settings = (props) => (
 class App extends Component {
   render() {
     return (
-      <div>
-        <div className="afterLoadTransition"/>
-        <BrowserRouter>
-          <div>
-            <Route exact path="/" component={Home}/>
-            <Route path="/about" component={About}/>
-            <Route path="/settings" component={Settings}/>
-          </div>
-        </BrowserRouter>
-      </div>
+      <BrowserRouter>
+        <div>
+          <Route exact path="/" component={Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/settings" component={Settings}/>
+        </div>
+      </BrowserRouter>
     );
   }
 }
