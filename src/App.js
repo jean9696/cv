@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router';
-import { Link, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createMuiTheme, MuiThemeProvider } from 'material-ui/styles';
-import logo from './logo.svg';
 import './App.css';
 import LandingPage from './LandingPage/LandingPage';
 import configureStore from './redux/configureStore';
