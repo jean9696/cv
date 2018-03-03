@@ -6,12 +6,6 @@ import { select } from '../../redux/reducers';
 import styles from './description.scss';
 import lang from './description.lang';
 
-
-const onContactMe = () => {
-  
-}
-
-
 const Description = props => (
   <Paper style={props.style} className={styles.container}>
     <p className={styles.desc}>
