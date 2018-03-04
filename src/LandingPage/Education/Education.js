@@ -13,6 +13,8 @@ import eisti from './eisti.png';
 import hw from './hw.png';
 import Title from '../Title/Title';
 
+const handleOpenTab = url => window.open(url);
+
 const Education = ({ trad }) => (
   <div className={styles.container}>
     <Title title="Formation" icon={<EducationIcon />} />
@@ -23,7 +25,7 @@ const Education = ({ trad }) => (
         icon={<SchoolIcon />}
       >
         <div className={styles.cardTitle}>
-          <div><img src={hw} alt="hw" /></div>
+          <div onClick={() => handleOpenTab('https://www.hw.ac.uk/')}><img src={hw} alt="hw" /></div>
           <div>
             <h3>{trad(lang.hwTitle)}</h3>
             <h4>{trad(lang.hwSubTitle)}</h4>
@@ -36,7 +38,7 @@ const Education = ({ trad }) => (
         icon={<SchoolIcon />}
       >
         <div className={styles.cardTitle}>
-          <div><img src={eisti} alt="eisti" /></div>
+          <div onClick={() => handleOpenTab('http://eisti.fr/')}><img src={eisti} alt="eisti" /></div>
           <div>
             <h3>{trad(lang.eistiTitle)}</h3>
             <h4>{trad(lang.eistiSubTitle)}</h4>
@@ -49,7 +51,7 @@ const Education = ({ trad }) => (
         icon={<SchoolIcon />}
       >
         <div className={styles.cardTitle}>
-          <div><img src={ucp} alt="ucp" /></div>
+          <div onClick={() => handleOpenTab('https://www.u-cergy.fr/fr/index.html')}><img src={ucp} alt="ucp" /></div>
           <div>
             <h3>{trad(lang.ucpTitle)}</h3>
             <h4>{trad(lang.ucpSubTitle)}</h4>

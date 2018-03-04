@@ -16,6 +16,8 @@ import dessaneDev from './dessaneDev.jpg';
 import nikki from './nikki.png';
 import mutum from './mutum.png';
 
+const handleOpenTab = url => window.open(url);
+
 const Education = ({ trad }) => (
   <div className={styles.container}>
     <Title title={trad(lang.title)} icon={<ExperienceIcon />} />
@@ -26,7 +28,7 @@ const Education = ({ trad }) => (
         icon={<WorkIcon />}
       >
         <div className={styles.cardTitle}>
-          <div><img src={rdsf} alt="RDSF" /></div>
+          <div onClick={() => handleOpenTab('https://www.rdsfbox.eu')}><img src={rdsf} alt="RDSF" /></div>
           <div>
             <h3>{trad(lang.rdsfTitle)}</h3>
             <h4>{trad(lang.rdsfSubTitle)}</h4>
@@ -41,7 +43,7 @@ const Education = ({ trad }) => (
         icon={<WorkIcon />}
       >
         <div className={styles.cardTitle}>
-          <div><img src={exg} alt="Gamebook" /></div>
+          <div onClick={() => handleOpenTab('http://gamebook.io/')}><img src={exg} alt="Gamebook" /></div>
           <div>
             <h3>{trad(lang.gamebookTitle)}</h3>
             <h4>{trad(lang.gamebookSubTitle)}</h4>
@@ -56,7 +58,7 @@ const Education = ({ trad }) => (
         icon={<WorkIcon />}
       >
         <div className={styles.cardTitle}>
-          <div><img src={invitio} alt="Invitio" /></div>
+          <div onClick={() => handleOpenTab('http://www.invit.io/')}><img src={invitio} alt="Invitio" /></div>
           <div>
             <h3>{trad(lang.invitioTitle)}</h3>
             <h4>{trad(lang.invitioSubTitle)}</h4>
@@ -100,7 +102,7 @@ const Education = ({ trad }) => (
         icon={<WorkIcon />}
       >
         <div className={styles.cardTitle}>
-          <div><img src={mutum} alt="mutum" /></div>
+          <div onClick={() => handleOpenTab('https://www.mutum.com/home')}><img src={mutum} alt="mutum" /></div>
           <div>
             <h3>{trad(lang.mutumTitle)}</h3>
             <h4>{trad(lang.mutumSubTitle)}</h4>

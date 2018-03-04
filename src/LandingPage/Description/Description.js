@@ -6,6 +6,11 @@ import { select } from '../../redux/reducers';
 import styles from './description.scss';
 import lang from './description.lang';
 
+const handleShowCv = () => window.open('https://www.dropbox.com/s/ydwsreqq1eckp7f/Resume%202018.jpg?dl=0');
+
+const handleMail = () => window.open('mailto:jean.dessane@gmail.com');
+
+
 const Description = props => (
   <Paper style={props.style} className={styles.container}>
     <p className={styles.desc}>
@@ -13,10 +18,10 @@ const Description = props => (
     </p>
     <Divider />
     <div className={styles.buttonContainer}>
-      <Button variant="raised" color="primary" className={styles.button}>
+      <Button variant="raised" color="primary" className={styles.button} onClick={handleShowCv}>
         {props.trad(lang.cv)}
       </Button>
-      <Button variant="raised" color="primary" className={styles.button}>
+      <Button variant="raised" color="primary" className={styles.button} onClick={handleMail}>
         {props.trad(lang.contactMe)}
       </Button>
     </div>

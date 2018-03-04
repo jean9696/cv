@@ -76,10 +76,10 @@ export default {
   },
 
   mutumTitle: {
-    fr: 'CTO & co-fondateur',
+    fr: 'Stagiaire Développeur full-stack',
   },
   mutumSubTitle: {
-    fr: 'Stagiaire Développeur full-stack',
+    fr: 'Mutum - Paris',
   },
   mutumContent: {
     fr: 'Participation à la finalisation de la V2 du site internet',
