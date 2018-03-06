@@ -23,7 +23,7 @@ export default {
     fr: 'Autonomie',
   },
   leadership: {
-    en: 'Leadership'
+    en: 'Leadership',
   },
   teamwork: {
     en: 'Team Work',
