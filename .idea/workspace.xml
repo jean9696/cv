@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70aed6c-e32e-4a84-b5a3-ebf299f7b846" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LandingPage/MainCard/jean.jpg" afterPath="$PROJECT_DIR$/src/LandingPage/MainCard/jean.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/dictanote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/dictanoteLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Nikki/nikki.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/Dictanote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/dictanote.lang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/dictanote.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Nikki/Nikki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Nikki/nikki.lang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Nikki/nikki.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/Projects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LandingPage/Projects/projects.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LandingPage/LandingPage.js" afterPath="$PROJECT_DIR$/src/LandingPage/LandingPage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LandingPage/MainCard/mainCard.scss" afterPath="$PROJECT_DIR$/src/LandingPage/MainCard/mainCard.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LandingPage/Skills/skills.lang.js" afterPath="$PROJECT_DIR$/src/LandingPage/Skills/skills.lang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,12 +31,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="mainCard.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LandingPage/MainCard/mainCard.scss">
+      <file leaf-file-name="Projects.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="256">
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/projects.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dictanote.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/Dictanote.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dictanote.lang.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/dictanote.lang.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="2" column="168" lean-forward="false" selection-start-line="2" selection-start-column="168" selection-end-line="2" selection-end-column="168" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Description.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LandingPage/Description/Description.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nikki.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Nikki/nikki.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nikki.lang.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Nikki/nikki.lang.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LandingPage.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LandingPage/LandingPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="69" column="14" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#38#79#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,6 +142,8 @@
       <find>hei</find>
       <find>img</find>
       <find>$items</find>
+      <find>initialSlideHeight</find>
+      <find>decorators</find>
     </findStrings>
     <replaceStrings>
       <replace>container</replace>
@@ -70,17 +161,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/app.json" />
-        <option value="$PROJECT_DIR$/public/manifest.json" />
-        <option value="$PROJECT_DIR$/public/service-worker.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/Layout.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Layout/layout.css" />
         <option value="$PROJECT_DIR$/src/Layout/Layout.js" />
         <option value="$PROJECT_DIR$/src/LandingPage/layout.css" />
         <option value="$PROJECT_DIR$/src/LandingPage/Layout.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/LandingPage/landingPage.css" />
         <option value="$PROJECT_DIR$/src/main.scss.css" />
         <option value="$PROJECT_DIR$/src/index.css" />
@@ -103,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/LandingPage/Title/title.scss" />
         <option value="$PROJECT_DIR$/src/LandingPage/Description/description.lang.js" />
         <option value="$PROJECT_DIR$/src/LandingPage/Skills/skills.scss" />
-        <option value="$PROJECT_DIR$/src/LandingPage/LandingPage.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/LandingPage/Experience/experience.lang.js" />
         <option value="$PROJECT_DIR$/src/LandingPage/Experience/experience.scss" />
@@ -119,7 +201,17 @@
         <option value="$PROJECT_DIR$/src/LandingPage/Education/education.lang.js" />
         <option value="$PROJECT_DIR$/src/LandingPage/Skills/Skills.js" />
         <option value="$PROJECT_DIR$/src/LandingPage/Skills/skills.lang.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/LandingPage/Projects/Nikki/nikki.lang.js" />
+        <option value="$PROJECT_DIR$/src/LandingPage/Projects/Nikki/Nikki.js" />
+        <option value="$PROJECT_DIR$/src/LandingPage/Projects/projects.scss" />
         <option value="$PROJECT_DIR$/src/LandingPage/MainCard/mainCard.scss" />
+        <option value="$PROJECT_DIR$/src/LandingPage/Projects/Projects.js" />
+        <option value="$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/dictanote.lang.js" />
+        <option value="$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/Dictanote.js" />
+        <option value="$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/dictanote.scss" />
+        <option value="$PROJECT_DIR$/src/LandingPage/Projects/Nikki/nikki.scss" />
+        <option value="$PROJECT_DIR$/src/LandingPage/LandingPage.js" />
       </list>
     </option>
   </component>
@@ -135,10 +227,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-29" />
-    <option name="y" value="-13" />
-    <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="x" value="20" />
+    <option name="y" value="-22" />
+    <option name="width" value="1936" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,6 +260,11 @@
             <path>
               <item name="jean" type="b2602c69:ProjectViewProjectNode" />
               <item name="jean" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jean" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,7 +278,23 @@
               <item name="jean" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LandingPage" type="462c0819:PsiDirectoryNode" />
-              <item name="MainCard" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LandingPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="Dictanote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LandingPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="Nikki" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,18 +318,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Projects\Dictanote" />
+      <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Projects" />
+      <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Projects\Nikki" />
       <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Description\socialIcons" />
       <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Experience" />
-      <recent name="C:\Users\Jean\webpack\jean\src\LandingPage" />
-      <recent name="C:\Users\Jean\webpack\jean\src\assets" />
-      <recent name="C:\Users\Jean\webpack\jean\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Projects\Dictanote" />
       <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Description\socialIcons" />
       <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Description" />
       <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Experience" />
       <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Skills" />
-      <recent name="C:\Users\Jean\webpack\jean\src\LandingPage\Education" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,12 +361,12 @@
       <workItem from="1520117162201" duration="385000" />
       <workItem from="1520122372540" duration="2044000" />
       <workItem from="1520177901835" duration="599000" />
-      <workItem from="1520330385887" duration="3612000" />
+      <workItem from="1520330385887" duration="12048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54734000" />
+    <option name="totallyTimeSpent" value="63170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -290,87 +403,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lang/Lang.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lang/lang.red.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lang/lang.act.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lang/common.lang.js" />
-    <entry file="file://$PROJECT_DIR$/src/redux/configureStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Timeline/Timeline.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Timeline/timeline.scss" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react-vertical-timeline-component/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="227" column="21" lean-forward="false" selection-start-line="227" selection-start-column="21" selection-end-line="227" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LandingPage/Education/ucp.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LandingPage/Education/eisti.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LandingPage/Education/hw.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -446,11 +483,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LandingPage/Experience/nikki.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LandingPage/Experience/mutum.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -460,13 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LandingPage/LandingPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -503,14 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LandingPage/Experience/experience.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -579,28 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LandingPage/Description/Description.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LandingPage/Description/description.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LandingPage/Education/Education.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -629,11 +628,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nuka-carousel/lib/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4992">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nuka-carousel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Experience/nikki.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nuka-carousel/src/decorators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nuka-carousel/src/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Nikki/nikki.lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Education/Education.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/landingPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Experience/experience.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LandingPage/MainCard/mainCard.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="416">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/projects.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Nikki/Nikki.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/dictanote.lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="168" lean-forward="false" selection-start-line="2" selection-start-column="168" selection-end-line="2" selection-end-column="168" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/Dictanote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Dictanote/dictanote.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Description/Description.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/Projects/Nikki/nikki.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LandingPage/LandingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="69" column="14" lean-forward="true" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#38#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -36,6 +36,7 @@
     "material-ui": "^1.0.0-beta.35",
     "material-ui-icons": "^1.0.0-beta.35",
     "node-sass": "^4.7.2",
+    "nuka-carousel": "^3.0.1",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",

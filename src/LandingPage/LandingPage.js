@@ -10,6 +10,7 @@ import Description from './Description/Description';
 import Education from './Education/Education';
 import Skills from './Skills/Skills';
 import Experience from './Experience/Experience';
+import Projects from './Projects/Projects';
 
 export default class LandingPage extends Component {
   constructor(props, context) {
@@ -57,11 +58,15 @@ export default class LandingPage extends Component {
           <Grow in={this.state.description}>
             <Description />
           </Grow>
-          <Education />
+          <Experience />
           <Grow in={this.state.skills} ref={ref => this.elements.skills = ref}>
             <Skills />
           </Grow>
-          <Experience />
+          <Projects />
+          <Education />
+          <div style={{ textAlign: 'center', fontSize: '10px', color: '#7d7e85', padding: '20px' }}>
+            Jean Dessane © 2018
+          </div>
         </div>
       </div>
     );

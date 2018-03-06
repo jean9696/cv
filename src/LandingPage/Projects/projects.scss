@@ -1,0 +1,13 @@
+@import '../../main';
+
+.container {
+  > div:first-child > ul > li > div {
+    min-height: 500px;
+  }
+}
+
+
+.titleContainer {
+  @extend %responsiveContainer;
+  margin-bottom: 40px;
+}

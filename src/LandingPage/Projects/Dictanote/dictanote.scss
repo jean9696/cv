@@ -1,0 +1,48 @@
+@import '../../../main';
+
+.container {
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div:nth-child(2) {
+    width: 560px;
+    height: 315px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.description {
+  padding-right: 50px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  color: $grey;
+  text-align: justify;
+  div:first-child {
+    height: 100px;
+    text-align: center;
+    padding-bottom: 25px;
+    img {
+      height: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    div:nth-child(2) {
+      width: 100%;
+      min-height: 220px;
+      height: auto;
+    }
+  }
+  .description {
+    padding: 50px 0;
+  }
+}
