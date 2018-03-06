@@ -10,7 +10,7 @@
 }
 
 .desc {
-  padding: 20px 30px;
+  padding: 20px 30px 5px;
   text-align: center;
   color: $grey;
 }
@@ -30,6 +30,21 @@
     flex-direction: column;
     .button {
       margin: 10px 0;
+    }
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: 30px;
+  img {
+    height: 100%;
+    margin: 0 20px;
+    &:hover {
+      opacity: 0.7;
+      cursor: pointer;
     }
   }
 }
