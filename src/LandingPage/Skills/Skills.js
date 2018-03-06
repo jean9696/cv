@@ -60,21 +60,21 @@ const Skills = props => (
       <h3>SoftSkills</h3>
       <div>
         <div className={styles.skill}>
-          <p>Français</p>
+          <p>{props.trad(lang.french)}</p>
           <LinearProgress color="primary" variant="determinate" value={100} />
-          <p>Anglais</p>
+          <p>{props.trad(lang.english)}</p>
           <LinearProgress color="primary" variant="determinate" value={85} />
         </div>
         <div className={styles.skill}>
-          <p>Agile</p>
+          <p>{props.trad(lang.agile)}</p>
           <LinearProgress color="primary" variant="determinate" value={85} />
-          <p>Autonomie</p>
+          <p>{props.trad(lang.autonomy)}</p>
           <LinearProgress color="primary" variant="determinate" value={95} />
         </div>
         <div className={styles.skill}>
-          <p>Leadership</p>
+          <p>{props.trad(lang.leadership)}</p>
           <LinearProgress color="primary" variant="determinate" value={80} />
-          <p>Travail en équipe</p>
+          <p>{props.trad(lang.teamwork)}</p>
           <LinearProgress color="primary" variant="determinate" value={90} />
         </div>
       </div>

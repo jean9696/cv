@@ -1,4 +1,8 @@
 export default {
+  education: {
+    en: 'Education',
+    fr: 'Formation',
+  },
   ucpTitle: {
     fr: 'Univeristé de Cergy-Pontoise',
   },

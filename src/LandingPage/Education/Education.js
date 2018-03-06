@@ -17,7 +17,7 @@ const handleOpenTab = url => window.open(url);
 
 const Education = ({ trad }) => (
   <div className={styles.container}>
-    <Title title="Formation" icon={<EducationIcon />} />
+    <Title title={trad(lang.education)} icon={<EducationIcon />} />
     <VerticalTimeline>
       <VerticalTimelineElement
         date="2017 - 2018"
