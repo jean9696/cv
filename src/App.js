@@ -20,6 +20,27 @@ const theme = createMuiTheme({
 });
 
 
+import { Button } from 'material-ui'; //eslint-disable-line
+import morse from './charlotte.wav'; //eslint-disable-line
+/* eslint-disable react/no-unescaped-entities */
+const playMorse = () => {
+  const audio = new Audio(morse);
+  audio.play();
+};
+const Charlotte = () => (<div>
+  <img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/International_Morse_Code-fr.svg/1200px-International_Morse_Code-fr.svg.png" alt="morse" />
+  <Button variant="raised" color="primary" onClick={playMorse}>écouter</Button>
+  <p>
+    Mon premier me demande d'y aller<br />
+    Mon deuxième se trouve dans les chambres<br />
+    Mon troisième est le son de la dernière lettre de l'alphabet<br />
+    Mon quatrième est indispensable aux omelettes<br />
+    <br />
+    Mon tout sert à voyager
+  </p>
+</div>);
+
+
 const store = configureStore();
 
 class App extends Component { //eslint-disable-line
@@ -33,6 +54,7 @@ class App extends Component { //eslint-disable-line
                 <Lang />
               </div>
               <Route exact path="/" component={LandingPage} />
+              <Route path="/charlotte" component={Charlotte} />
             </div>
           </BrowserRouter>
         </Provider>
